@@ -4,7 +4,11 @@ const nextConfig = {
   swcMinify: true,
 
   env: {
-    appName: 'Rizkita Blog'
+    appName: 'R-Shop'
+  },
+
+  images: {
+    domains: ['cdn.shopify.com', 'api.lorem.space', 'placeimg.com', 'encrypted-tbn0.gstatic.com', 'connectsupport.colgate.com'],
   },
 
   async rewrites() {
